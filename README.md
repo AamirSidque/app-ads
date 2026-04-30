@@ -1,7 +1,7 @@
 # Byte Envision — Portfolio Website
 
 Production-grade personal portfolio for **Aamir Sidque** (Byte Envision).  
-Live at → **https://byteenvision.github.io**
+Live at → **https://admin.byteenvision.com/**
 
 ---
 
@@ -50,7 +50,7 @@ byteenvision-site/
 
 ### Option A — GitHub UI (easiest)
 
-1. Create repo named `byteenvision.github.io` (must match username exactly)
+1. Create repo named `admin.byteenvision.com/` (must match username exactly)
 2. Upload all files maintaining the folder structure above
 3. Go to **Settings → Pages → Source → Deploy from branch → main → / (root)**
 4. Wait ~2 minutes — live at `https://byteenvision.github.io`
@@ -152,7 +152,7 @@ Create `/robots.txt`:
 ```
 User-agent: *
 Allow: /
-Sitemap: https://byteenvision.github.io/sitemap.xml
+Sitemap: https://admin.byteenvision.com/sitemap.xml
 ```
 
 ---
