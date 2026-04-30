@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Case studies and project breakdowns by Aamir Sidque — PDF Editor, Pic Meta, Code Editor and more Android apps."/>
+  <title>Projects & Case Studies — Byte Envision</title>
+  <link rel="canonical" href="https://byteenvision.github.io/pages/projects.html"/>
+  <link rel="stylesheet" href="../css/main.css"/>
+</head>
+<body>
+<div id="nav-slot"></div>
+<div class="page-wrap">
+
+<div class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">Home</a><span class="breadcrumb-sep">/</span><span>Projects</span></div>
+    <div class="page-hero-eyebrow">Case Studies</div>
+    <h1>Real problems.<br/><em>Real solutions.</em></h1>
+    <p class="page-hero-sub">Each project started from a genuine user need. Here's the problem, the approach, and the outcome for each one.</p>
+  </div>
+</div>
+
+<hr class="hr"/>
+
+<!-- ── PDF EDITOR ──────────────────────────────────────────── -->
+<section class="section" id="pdf-editor">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;" class="reveal">
+      <div>
+        <div class="section-eyebrow">Case Study 01</div>
+        <h2 class="section-title">PDF Editor<br/>Edit, Merge, Convert</h2>
+        <p style="color:var(--txt-2);font-size:15px;line-height:1.8;font-weight:300;margin-bottom:24px;">
+          Most PDF apps on Android either require a subscription, demand cloud access, or crash on large files. Users in low-connectivity areas — like Kashmir — needed a tool that just worked offline.
+        </p>
+        <div class="tags" style="margin-bottom:28px;">
+          <span class="tag">Android</span><span class="tag">Utility</span><span class="tag">Offline-First</span><span class="tag">PDF</span>
+        </div>
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=editor.pdf" target="_blank" rel="noopener">View on Play Store →</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:3px;">
+        <div class="cs-block" style="border-radius:var(--r-lg) var(--r-lg) 0 0;">
+          <div class="cs-block-title">🔴 Problem</div>
+          <div class="cs-block-text">Android PDF editors required cloud accounts, subscriptions, or internet connection for basic operations like merging two files.</div>
+        </div>
+        <div class="cs-block">
+          <div class="cs-block-title">🟡 Solution</div>
+          <div class="cs-block-text">Built a fully local PDF editor. All processing happens on-device. No login, no upload, no data leaving the phone.</div>
+        </div>
+        <div class="cs-block">
+          <div class="cs-block-title">🟢 Approach</div>
+          <div class="cs-block-text">Used Android's native PDF libraries combined with custom rendering. Kept the UI minimal — one action per screen, no tutorial needed.</div>
+        </div>
+        <div class="cs-block" style="border-radius:0 0 var(--r-lg) var(--r-lg);">
+          <div class="cs-block-title">📊 Outcome</div>
+          <div class="cs-block-text">Published on Play Store. Zero permissions beyond storage access. Clean 4-star average with users praising offline capability.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hr"/>
+
+<!-- ── PIC META ────────────────────────────────────────────── -->
+<section class="section" id="pic-meta">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;" class="reveal">
+      <div style="order:2;">
+        <div class="section-eyebrow">Case Study 02</div>
+        <h2 class="section-title">Pic Meta<br/>EXIF & GPS Remover</h2>
+        <p style="color:var(--txt-2);font-size:15px;line-height:1.8;font-weight:300;margin-bottom:24px;">
+          Every photo taken on a smartphone embeds GPS coordinates, device model, timestamp and more into the file. When shared, this metadata goes with it — exposing precise location to anyone who checks.
+        </p>
+        <div class="tags" style="margin-bottom:28px;">
+          <span class="tag">Android</span><span class="tag">Privacy</span><span class="tag">Security</span><span class="tag">Photos</span>
+        </div>
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.picmeta" target="_blank" rel="noopener">View on Play Store →</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:3px;order:1;">
+        <div class="cs-block" style="border-radius:var(--r-lg) var(--r-lg) 0 0;">
+          <div class="cs-block-title">🔴 Problem</div>
+          <div class="cs-block-text">Journalists, activists and privacy-conscious users needed a quick way to strip EXIF data before sharing photos, with no cloud involvement.</div>
+        </div>
+        <div class="cs-block">
+          <div class="cs-block-title">🟡 Solution</div>
+          <div class="cs-block-text">One-tap EXIF and GPS metadata removal that works 100% on-device. No internet permission in the manifest at all.</div>
+        </div>
+        <div class="cs-block">
+          <div class="cs-block-title">🟢 Approach</div>
+          <div class="cs-block-text">Used ExifInterface API with a custom batch-processing pipeline. Designed for speed — bulk removal of metadata across multiple photos in seconds.</div>
+        </div>
+        <div class="cs-block" style="border-radius:0 0 var(--r-lg) var(--r-lg);">
+          <div class="cs-block-title">📊 Outcome</div>
+          <div class="cs-block-text">Rare niche app with zero direct competitors offering the same offline guarantee. Differentiates strongly on privacy positioning.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hr"/>
+
+<!-- ── CODE EDITOR ─────────────────────────────────────────── -->
+<section class="section" id="code-editor">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;" class="reveal">
+      <div>
+        <div class="section-eyebrow">Case Study 03</div>
+        <h2 class="section-title">Code Editor<br/>Learn & Code on Mobile</h2>
+        <p style="color:var(--txt-2);font-size:15px;line-height:1.8;font-weight:300;margin-bottom:24px;">
+          Aspiring developers in regions with unreliable connectivity can't depend on online IDEs like Replit or CodeSandbox. They needed something that worked from a phone, offline, with real syntax highlighting.
+        </p>
+        <div class="tags" style="margin-bottom:28px;">
+          <span class="tag">Android</span><span class="tag">Education</span><span class="tag">Developer Tools</span><span class="tag">Offline</span>
+        </div>
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=code.editor.learn" target="_blank" rel="noopener">View on Play Store →</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:3px;">
+        <div class="cs-block" style="border-radius:var(--r-lg) var(--r-lg) 0 0;">
+          <div class="cs-block-title">🔴 Problem</div>
+          <div class="cs-block-text">Students in low-connectivity areas couldn't use cloud-based code editors. Desktop IDEs weren't an option. They needed a mobile-native solution.</div>
+        </div>
+        <div class="cs-block">
+          <div class="cs-block-title">🟡 Solution</div>
+          <div class="cs-block-text">Lightweight mobile code editor with syntax highlighting for HTML, CSS, JS, Python, Java and more. Saves files locally, works fully offline.</div>
+        </div>
+        <div class="cs-block">
+          <div class="cs-block-title">🟢 Approach</div>
+          <div class="cs-block-text">Custom tokenizer for syntax highlighting without heavy dependencies. Tab-based editor UI familiar to desktop IDE users, adapted for touch.</div>
+        </div>
+        <div class="cs-block" style="border-radius:0 0 var(--r-lg) var(--r-lg);">
+          <div class="cs-block-title">📊 Outcome</div>
+          <div class="cs-block-text">Strong organic reviews from students praising the offline capability. Used as a companion tool for learning programming on mobile.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hr"/>
+
+<!-- ── SLAP IT ─────────────────────────────────────────────── -->
+<section class="section" id="slap-it">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;" class="reveal">
+      <div style="order:2;">
+        <div class="section-eyebrow">Case Study 04</div>
+        <h2 class="section-title">Slap It<br/>Funny Phone Sounds</h2>
+        <p style="color:var(--txt-2);font-size:15px;line-height:1.8;font-weight:300;margin-bottom:24px;">
+          Prank apps are notoriously ad-heavy and privacy-invasive. Users wanted a fun reaction sound app that didn't phone home or demand a list of permissions for a simple entertainment use case.
+        </p>
+        <div class="tags" style="margin-bottom:28px;">
+          <span class="tag">Android</span><span class="tag">Entertainment</span><span class="tag">Sound</span><span class="tag">Prank</span>
+        </div>
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.slapit.app" target="_blank" rel="noopener">View on Play Store →</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:3px;order:1;">
+        <div class="cs-block" style="border-radius:var(--r-lg) var(--r-lg) 0 0;">
+          <div class="cs-block-title">🔴 Problem</div>
+          <div class="cs-block-text">Sound prank apps in this category are packed with ads and trackers. Users wanted a clean, fast alternative with custom sound support.</div>
+        </div>
+        <div class="cs-block">
+          <div class="cs-block-title">🟡 Solution</div>
+          <div class="cs-block-text">Motion-triggered sound reactions (slap, shake, drop) with custom audio upload, duration control and notification support. Zero trackers.</div>
+        </div>
+        <div class="cs-block">
+          <div class="cs-block-title">🟢 Approach</div>
+          <div class="cs-block-text">Used Android accelerometer API for gesture detection. Built background service for always-on detection without battery drain.</div>
+        </div>
+        <div class="cs-block" style="border-radius:0 0 var(--r-lg) var(--r-lg);">
+          <div class="cs-block-title">📊 Outcome</div>
+          <div class="cs-block-text">Currently optimising ASO and moving to free + ad-supported model for wider reach and passive revenue.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="hr"/>
+
+<!-- CTA -->
+<section class="section-sm">
+  <div class="container">
+    <div class="reveal" style="background:var(--accent-pale);border:1px solid var(--accent-rim);border-radius:var(--r-xl);padding:48px;display:flex;align-items:center;justify-content:space-between;gap:32px;flex-wrap:wrap;">
+      <div>
+        <h2 style="font-size:clamp(22px,3vw,32px);letter-spacing:-0.03em;margin-bottom:8px;">Want a similar case study for your app?</h2>
+        <p style="color:var(--txt-2);font-size:14px;font-weight:300;">I build and document Android apps end-to-end. Let's work together.</p>
+      </div>
+      <a class="btn btn-primary" href="contact.html">Start a Project →</a>
+    </div>
+  </div>
+</section>
+
+</div>
+<div id="footer-slot"></div>
+<script src="../js/components.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
