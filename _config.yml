@@ -1,0 +1,7 @@
+# GitHub Pages config
+title: Byte Envision
+description: Android developer portfolio — Aamir Sidque
+url: "https://byteenvision.github.io"
+baseurl: ""
+theme: null
+plugins: []
