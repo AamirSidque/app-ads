@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /assets/
 
-Sitemap: https://byteenvision.github.io/sitemap.xml
+Sitemap: https://admin.byteenvision.com/sitemap.xml
